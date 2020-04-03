@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="styleCoro.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+    <link rel = "icon" href = "./images/logo.png" type = "image/x-icon"> 
+    <title>CoroIndex: All about Coronavirus and COVID-19</title>
+</head>
+<body>
+    <div class="container"> 
+        <div id="home">
+            <img  src="./images/CoroIndex.png">
+            <br>
+        </div> <!--this one for id = home-->
+
+        <!--Dropdown in the menu left to be added-->
+
+        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+        
+        <div class="topnav" id="myTopnav">
+            <a href="#home" id="btn active">Home</a>
+            <a href="#About" id="btn active">About</a>
+            <a href="#History" id="btn active">History</a>
+            <a href="#NumberGame" id="btn active">Numbers Matter</a>
+            <a href="#Symptoms" id="btn active">Symptoms</a>
+            <a href="#Treatment" id="btn active">Treatment</a>
+            <a href="#Precaution" id="btn active">Precaution</a>
+            <a href="#MythsFacts" id="btn active">Myths and Facts</a>
+            <a href="#Recovery" id="btn active">Recovery Stories</a>
+            <a href="#Way" id="btn active">Way Ahead</a>
+            <a href="#Testimonial" id="btn active">Testimonials</a>
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        
+        <!--Slideshow of Images-->
+        <!-- Full-width images with number text -->
+        <div class="mySlides">
+        <div class="numbertext"></div>
+            <img src="./images/SlidePic1.jpg" style="width:100%; height:100%;">
+        </div>
+
+        <div class="mySlides">
+        <div class="numbertext"></div>
+            <img src="./images/pandemic.jpg" style="width:100%; height:100%;">
+        </div>
+
+        <div class="mySlides">
+        <div class="numbertext"></div>
+            <img src="./images/tourism.jpg" style="width:100%; height:100%;">
+        </div>
+
+        <div class="mySlides">
+        <div class="numbertext"></div>
+            <img src="./images/StockMarketCrash.jpeg" style="width:100%; height:100%;">
+        </div>
+
+        <div class="mySlides">
+        <div class="numbertext"></div>
+            <img src="./images/BB118Ymo.jfif" style="width:100%; height:100%;">
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Image text -->
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+        <!-- Thumbnail images -->
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="./images/SlidePic1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Microscopic view of Novel Coronavirus">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="./images/pandemic.jpg" style="width:100%" onclick="currentSlide(2)" alt="COVID-19 being declared a global pandemic by WHO Director General, Dr Tedros Adhanom Ghebreyesus, on 11 March 2020">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="./images/tourism.jpg" style="width:100%" onclick="currentSlide(3)" alt="Tourism sector gets badly affected">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="./images/StockMarketCrash.jpeg" style="width:100%" onclick="currentSlide(4)" alt="Stock markets all over the world crash down">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="./images/BB118Ymo.jfif" style="width:100%" onclick="currentSlide(5)" alt="Future of Olympics at stake due to the situation, with players and olympic associations of different countries opposing its conduct">
+            </div>
+        </div>
+        <br><br>
+    </div> <!--this one for class = container-->
+    
+    <!--ABOUT-->
+    <div id="About">
+        <h1 style="text-align: center;  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">About Coronaviruses and COVID-19</h1> 
+        <p><strong style="color: black; font-weight: bolder;">CORONAVIRUS</strong> are a group of related viruses that cause diseases in mammals and birds. In humans, coronaviruses cause respiratory tract infections that can be mild, such as some cases of the common cold 
+            (among other possible causes, predominantly rhinoviruses), and others that can be lethal, such as Severe Acute Respiratory Syndrome (SARS-CoV), Middle East Respiratory Syndrome (MERS-CoV), and the present-day 
+            global pandemic, COVID-19.<br><br>
+            WHEREAS,<BR>
+            <strong style="color: black; font-weight: bolder;">CORONAVIRUS DISEASE (COVID-19)</strong> is the infectious disease caused by the newly discovered member of Coronavirus family, the Novel Coronavirus, which has a structure slightly different from other members of the virus family. 
+            It is typically spread from one person to another via respiratory droplets produced during coughing. It may also be spread from touching contaminated surfaces and then touching one's face <br><br>
+            Coronaviruses are zoonotic (check the <a href="https://docs.google.com/document/d/1648tc38UEYxdZjUwYV5wLvec8a0KWZdYshftqkKQGSU/edit?usp=sharing" target="_blank">glossary</a>) in nature.<br><br>
+            So to remember, coronavirus is a family of viruses, and COVID-19 is the disease cause by the novel Coronavirus.
+        </p>
+    </div>
+    <br><br>
+
+    <!--HISTORY-->
+    <div id="History">
+        <h1 style="text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">HISTORY</h1>
+        <p>The disease appears to have originated from a Wuhan seafood market, a port city of 11 million people in the central Hubei province, where wild animals, including marmots, birds, rabbits, bats and snakes, are traded illegally.<br><br>
+            Such markets pose a heightened risk of viruses jumping from animals to humans because hygiene standards are difficult to maintain if live animals are being kept and butchered on site. Typically, they are also densely packed.<br><br>
+            The animal source of the latest outbreak has not yet been identified, but the original host is thought to be bats. Bats were not sold at the Wuhan market but may have infected live chickens or other animals sold there. <br><br>
+            This came into notice when on December 31 last year, China alerted WHO to several cases of unusual pneumonia in Wuhan.
+        </p>
+    </div>
+    <br><br>
+
+    <!--NUMBER GAME-->
+    <div id="NumberGame">
+        <h1 style="text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">NUMBERS MATTER..</h1>
+        <img src="./images/InfographicCorona.png" style="height: auto; width: 100%;"><br><br>
+        <h1>Serious, isn't it?</h1>
+    </div>
+    <br><br>
+    
+    <!--SYMPTOMS-->
+    <div id="Symptoms">
+        <h1 style="text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">SYMPTOMS</h1>
+        <div class="h">
+            <!--Cough-->
+            <img src="./images/symptomCough.jpg" alt="Cough" class="imageC">
+            <div class="overlayC">
+                <div class="textC">Dry cough, sore throat and flu like symptoms</div>
+            </div>
+            <br><br>
+        </div>
+        <div class="h">
+            <!--Fever-->
+            <img src="./images/symptomFever.jpg" alt="Fever" class="imageF">
+            <div class="overlayF">
+                <div class="textF">When at least 100.4<sup>o</sup>F</div>
+            </div>
+            <br><br>
+        </div>
+        <div class="h">
+            <!--Shortness of breath-->
+            <img src="./images/symptomBreath.jpg" alt="Breath" class="imageB">
+            <div class="overlayB">
+                <div class="textB">Discomfort while breathing(in most severe cases)</div>
+            </div>
+        </div>
+        
+        <p>*Symptoms may appear between two and 10 days after contracting the virus, but it may be up to 24 days.</p>
+    </div>
+    <br><br>
+
+    <!--TREATMENT-->
+    <div id="Treatment">
+        <h1 style="text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">IF YOU ARE SICK</h1>
+        <img src="./images/Temperature.jpg">
+        <img src="./images/Cough.jpg">
+        <img src="./images/diff.jpg">
+        <ul class="w3-animate-left" style="font-size: x-large;">
+            <li>Stay home except to get medical care.</li>
+            <li>Separate yourself from other people in your home. This is known as home isolation</li>
+            <li>Call ahead before visiting your doctor and wear a facemask</li>
+            <li>Cover your coughs and sneezes</li>
+            <li>Clean your hands often and avoid sharing personal household items</li>
+        </ul>        
+    </div>
+    <br><br>
+
+    <!--PRECAUTIONS-->
+    <div id="Precaution">
+        <h1 style="text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">PRECAUTIONS TO BE TAKEN</h1>
+        <ul class="w3-animate-left" style="font-size: x-large;">
+            <li>Carry a hand sanitiser with you to make frequent cleaning of your hands easy</li>
+            <li>Always wash your hands before you eat or touch your face</li>
+            <li>Be especially careful about touching things and then touching your face in busy airports and other public transport systems</li>
+            <li>Carry disposable tissues with you, cover your nose and mouth when you cough or sneeze and dispose of the tissue carefully (catch it, bin it, kill it)</li>
+            <li>Do not share snacks from packets or bowls that others are dipping their fingers into</li>
+            <li>Avoid shaking hands or cheek kissing if you suspect viruses are circulating</li>
+            <li>Regularly clean not only your hands but also commonly used surfaces and devices you touch or handle.</li>
+        </ul>
+    </div>
+    <br><br>
+
+    <!--MYTHS AND FACTS-->
+    <div id="MythsFacts">
+        <h1 style="text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">MYTHS AND FACTS</h1>
+
+        <!--Automatic Slideshow of images taken from WHO-->
+        <div class="slideshow-container">
+
+            <div class="mySlidesMyth fade">
+                <div class="numbertextMyth">1 / 6</div>
+                <img src="./content/Myth1.png" style="width:100%;" alt="Myth"> 
+                <div class="textMyth">Courtesy: WHO</div>
+            </div>
+            
+            <div class="mySlidesMyth fade">
+                <div class="numbertextMyth">2 / 6</div>
+                <img src="./content/Myth2.png" style="width:100%;" alt="Myth">
+                <div class="textMyth">Courtesy: WHO</div>
+            </div>
+
+            <div class="mySlidesMyth fade">
+                <div class="numbertextMyth">3 / 6</div>
+                <img src="./content/Myth3.png" style="width:100%;" alt="Myth">
+                <div class="textMyth">Courtesy: WHO</div>
+            </div>
+
+            <div class="mySlidesMyth fade">
+                <div class="numbertextMyth">4 / 6</div>
+                <img src="./content/Myth4.png" style="width:100%;" alt="Myth">
+                <div class="textMyth">Courtesy: WHO</div>
+            </div>
+
+            <div class="mySlidesMyth fade">
+                <div class="numbertextMyth">5 / 6</div>
+                <img src="./content/Myth5.png" style="width:100%;" alt="Myth">
+                <div class="textMyth">Courtesy: WHO</div>
+            </div>
+              
+            <div class="mySlidesMyth fade">
+                <div class="numbertextMyth">6 / 6</div>
+                <img src="./content/Myth6.png" style="width:100%;" alt="Myth">
+                <div class="textMyth">Courtesy: WHO</div>
+            </div>
+            
+        </div>
+        <br>
+            
+        <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+    <br><br>
+
+    <!--RECOVERY STORIES-->
+    <div id="Recovery">
+        <h1 style="text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">RECOVERY STORIES</h1>
+        <div class="flex-container">
+            <div class="storyUS">
+                <h2 style="text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-overflow: unset;">A Patient Recovered From Coronavirus Shares How To Handle It.</h2><br>
+                <p style="font-weight: lighter;">Coronavirus: The 37-year-old, who has a PhD in bioengineering, said she was sharing her story "to give people a little bit of hope" through her own relatively mild experience with the infection, which she treated herself from home.<br>
+                <a href="https://www.ndtv.com/world-news/a-patient-recovered-from-coronavirus-shares-how-to-handle-it-2193571"; target="_blank">Read more...</a></p>
+            </div>
+            <div class="storyInd">
+                <h2 style="text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-overflow: unset;">Three coronavirus afflicted patients recover due to innovative treatment by doctors at Jaipur govt hospital</h2>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">The doctors at govt-run Sawai Man Singh Hospital in Jaipur treated the coronavirus patients with a combination of medicines used for treating HIV, malaria and swine flu<br>
+                <a href="https://www.nationalheraldindia.com/india/three-coronavirus-afflicted-patients-recover-due-to-innovative-treatment-by-doctors-at-jaipur-govt-hospital"; target="_blank">Read more...</a></p>
+            </div>
+            <div class="storyIran">
+                <h2 style="text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-overflow: unset;">103-year-old Iran woman survives coronavirus: Report </h2><br><br>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">With this, she became the oldest patient to recover from the deadly disease.<br>
+                <a href="https://www.straitstimes.com/world/middle-east/103-year-old-iran-woman-survives-coronavirus-report"; target="_blank">Read more...</a></p>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <!--WAY AHEAD-->
+    <div id="Way">
+        <h1 style="text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">WAY AHEAD</h1>
+        <p>During the situations of lockdown and crisis we are facing now, many of us are at our own homes, laying on the bed, watching T.V, or web series. These might give us temporary pleasures, a medium to escape the reality and our anxiety. 
+           What if we face an internet shutdown? What to do to overcome our stress and the panic situation then?<br><br>
+           In life, we think on all aspects- logical, emotional, psychological, but... never SPIRITUAL. It is thought to be old-fashioned and superstitious by us today, and so neglected. But are you aware, that it is these techniques which are 
+           followed by people suffering from ailments, which even the doctors of the highest orders have not been able to cure?<br><br>
+           This situation has brought a golden opportunity to all of us to resort to these practices and live a healthy and joyous life ahead. Below given are links to some of the articles on these practices.<br><br>
+           <ul>
+               <li>Spiritual Healing Principles --- <a href="https://www.spiritualresearchfoundation.org/spiritual-healing/spiritual-healing-principles/">here</a></li>
+               <li>Self Healing --- <a href="https://www.spiritualresearchfoundation.org/spiritual-healing/self-healing/">here</a></li>
+               <li>Box Treatment --- <a href="https://www.spiritualresearchfoundation.org/spiritual-healing/self-healing/healing-therapy-box-treatment/">here</a></li>
+               <li>Salt Water Treatment --- <a href="https://www.spiritualresearchfoundation.org/spiritual-healing/self-healing/salt-water-remedy/">here</a></li>
+               <li>Exploring about Alternative Medicines --- <a href="https://www.spiritualresearchfoundation.org/spiritual-healing/alternative-medicine/">here</a></li>
+           </ul>
+        </p>
+        <br><br>
+        At this stage, when we have got time for ourselves, in this period of self-quarantine, why not develop our skillset? <h2>QUARO-LEARN!</h2>
+        A list of companies have provided free access to exclusive content, premium insights and benefits. A good opportunity to use this time and recreate!!<br><br>
+
+        <!-- Tab links -->
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'Software')">Software Related</button>
+            <button class="tablinks" onclick="openCity(event, 'Entrepreneur')">Entrepreneurship</button>
+            <button class="tablinks" onclick="openCity(event, 'Fin')">Finance</button>
+            <button class="tablinks" onclick="openCity(event, 'Psy')">Psychology</button>
+        </div>
+  
+        <!-- Tab content -->
+        <div id="Software" class="tabcontent">
+            <h3>Software Related</h3>
+            <p>Since the IT industry has been one of the most lucrative industry in terms of pay. With the ever expanding domains of Artificial Intelligence, Machine Learning, 
+                Ethical Hacking, Data Science, there is and will be a dire need of capable professionals in the industry. Irrespective of your background, what matters is your skillset, 
+            and here is the opportunity knocking at your doors to develop yourselves. Apart from the above ones, here are some tracks to look upto:<br>
+            <ul>
+                <li>Web Development</li>
+                <li>Android Application Development</li>
+                <li>Deep Learning</li>
+                <li>Languages like C, C++, Java, Python etc.</li>
+            </ul>
+        </p>
+        </div>
+  
+        <div id="Entrepreneur" class="tabcontent">
+            <h3>Entrepreneurship</h3>
+            <p>All of us want to do something unique in life, something by which people will remember us for generations to come. It is this which has resulted in the growth of Entrepreneurship
+                culture, creating a vast array of job opportunities. This is a sector, which has humongous potential of growth in the near future. A very good time to prepare yourselves for your 
+                future, and get your basics right. Below given are some tracks in this regard:<br>
+                <ul>
+                    <li>Building an idea, and the business</li>
+                    <li>Business Statergy</li>
+                    <li>Idea Pitching</li>
+                    <li>Basic Financing</li>
+                </ul>
+            </p>
+        </div>
+  
+        <div id="Fin" class="tabcontent">
+            <h3>Finance</h3>
+            <p>Finance has been, and will be one of the most crucial factors for the success of any firm. These people are highly valued and regarded in the market because it is their decisions, 
+                which ultimately decides the fate of the company. Also, the knowledge of the basics of Finance is must for every individual, since it helps a person to handle his money wisely. Given 
+                below are some areas which one can explore in this field:<br>
+                <ul>
+                    <li>Investment Banking</li>
+                    <li>Personal Finance</li>
+                    <li>Financial Analysis</li>
+                    <li>Stock Trading</li>
+                </ul>
+            </p>
+        </div>
+
+        <div id="Psy" class="tabcontent">
+            <h3>Psychology</h3>
+            <p>Ever thought of why people behave in a particular manner? Why do cultural traditions exist? Or even tried reading people's mind... Psychologists are in demand everywhere, since they provide
+                 help to people who need mental support, during the time of some crisis or when their ever increasing stress overpowers them. Also, a knowledge of this would help you to keep your mind cool 
+                 and calm during any crisis and handle the situation effectively.
+            </p>
+        </div>
+
+           <!-- <h2 style="text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">WHY NOT BE PRODUCTIVE?</h1> -->
+    </div>
+    <br><br>
+
+    <!--TESTIMONIALS-->
+    <div id="Testimonial">
+        <h1 style="text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">TESTIMONIALS</h1>
+        <div class="arrangement">
+            <div class="video-responsive">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/1APwq1df6Mw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br><br><br>
+                <p style="color: black;">A video by the WHO(World Health Organisation on COVID-19 (Courtesy: WHO)</p>
+            </div>
+            <br><br><br>
+            <div class="video-responsive">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/1KtEfhe5N4g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br><br><br>
+                <p style="color: black;">Some FAQs being answered by Dr Randeep Guleria, Director, AIIMS Delhi (Courtesy: India Today)</p>
+            </div>
+            <br><br><br>
+            <div class="video-responsive">
+                <iframe width="300" height="250" src="./images/ThankYou.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br><br><br>
+                <p style="color: black;">Some FAQs being answered by Dr Randeep Guleria, Director, AIIMS Delhi (Courtesy: India Today)</p>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="w3-container w3-center w3-animate-left">
+        <h1>Animation is Fun!</h1>
+        <p>The w3-animate-left class slides in an element from left.</p>
+    </div> -->
+    <script src="script.js"></script>
+</body>
+</html>
