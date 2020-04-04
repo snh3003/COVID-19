@@ -18,24 +18,10 @@
 .col_fourth {
   width: 30%;
 }
-.col_fifth {
-  width: 18.4%;
-}
-.col_sixth {
-  width: 15%;
-}
-.col_three_fourth {
-  width: 74.5%;
-}
-.col_twothird {
-  width: 66%;
-}
+
 .col_half,
 .col_third,
-.col_twothird,
-.col_fourth,
-.col_three_fourth,
-.col_fifth {
+.col_forth {
   position: relative;
   display: inline;
   float: left;

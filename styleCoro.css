@@ -9,9 +9,8 @@ body{
 .container img{
     height: 100px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 10px;
+    /* margin-left: auto;
+    margin-right: auto; */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -93,7 +92,7 @@ body{
 .container .topnav a:hover {
     background-color: #F0F8F1;
     color: black;
-    margin: 0 -1px;
+    /* margin: 0 -1px; */
 }
 
 /* Add an active class to highlight the current page */
