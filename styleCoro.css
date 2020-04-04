@@ -3,15 +3,14 @@ html{
 }
 
 body{
-    background-color: rgb(250, 130, 236);
+    background-color: #fff;
 }
 
 .container img{
     height: 100px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 10px;
+    /* margin-left: auto;
+    margin-right: auto; */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -21,7 +20,7 @@ body{
     overflow: hidden;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-  
+
 /* Style the links inside the navigation bar */
 .container .topnav a {
     float: left;
@@ -38,9 +37,9 @@ body{
     float: left;
     overflow: hidden;
 }
-  
+
  .topnav .dropdown .dropbtn {
-    font-size: 16px;  
+    font-size: 16px;
     border: none;
     outline: none;
     color: white;
@@ -49,7 +48,7 @@ body{
     font-family: inherit;
     margin: 0;
 }
-  
+
  .topnav .dropdown:hover .dropbtn {
     background-color: #F0F8F1;
     color: black;
@@ -61,7 +60,7 @@ body{
     color: black;
     display: inline-block;
 }
-  
+
 .topnav .dropdown .dropdown-content {
     display: none;
     position: relative;
@@ -70,7 +69,7 @@ body{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
-  
+
 .topnav .dropdown .dropdown-content a {
     float: none;
     color: black;
@@ -79,29 +78,29 @@ body{
     display: block;
     text-align: left;
 }
-  
+
 .container .topnav .dropdown-content a:hover {
     background-color: #F0F8F1;
 }
-  
+
  .dropdown:hover .dropdown-content {
     display: block;
 }*/
 
-  
+
 /* Change the color of links on hover */
 .container .topnav a:hover {
     background-color: #F0F8F1;
     color: black;
-    margin: 0 -1px;
+    /* margin: 0 -1px; */
 }
- 
+
 /* Add an active class to highlight the current page */
 .container .topnav a.active {
     background-color: rgb(240, 248, 241);
     color: black;
 }
-  
+
 /* Hide the link that should open and close the topnav on small screens */
 .container .topnav .icon {
     display: none;
@@ -130,7 +129,7 @@ body{
         display: block;
     }
 }
-  
+
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 710px) {
         .container .topnav .responsive {position: relative;}
@@ -151,20 +150,20 @@ body{
 .content {
     padding: 16px;
 }
-  
+
 /* The sticky class is added to the id myTopnav with JS when it reaches its scroll position */
 .sticky {
     position: fixed;
     top: 0;
     width: 100%;
 }
-  
+
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
     padding-top: 50px;
 }
 
-/* The container <div> - needed to position the dropdown content 
+/* The container <div> - needed to position the dropdown content
  .topnav .dropdown {
     position: relative;
     display: inline-block;
@@ -173,52 +172,31 @@ body{
 * {
     box-sizing: border-box;
   }
-  
+
 /* Position the image container (needed to position the left and right arrows) */
 .container {
     position: relative;
 }
-  
+
   /* Hide the images by default */
-.mySlides {
-    display: none;
-}
-  
+
+
 /* Add a pointer when hovering over the thumbnail images */
 .cursor {
     cursor: pointer;
 }
-  
+
 /* Next & previous buttons */
-.prev,
-.next {
-    cursor: pointer;
-    position: absolute;
-    top: 40%;
-    width: auto;
-    height: auto;
-    padding: 16px;
-    margin-top: -50px;
-    color: white;
-    font-weight: bold;
-    font-size: medium;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    -webkit-user-select: none;
-}
-  
+
+
 /* Position the "next button" to the right */
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-  
+
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
-  
+
 /* Number text (1/3 etc) */
 /*.numbertext {
     color: #f2f2f2;
@@ -227,7 +205,7 @@ body{
     position: absolute;
     top: 0;
 }*/
-  
+
 /* Container for image text */
 .caption-container {
     text-align: center;
@@ -237,24 +215,24 @@ body{
     font-size: medium;
     font-family: 'Rubik', sans-serif;;
 }
-  
+
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
-  
+
 /* Six columns side by side */
 .column {
     float: left;
     width: 20%;
 }
-  
+
 /* Add a transparency effect for thumnbail images */
 .demo {
     opacity: 0.6;
 }
- 
+
 .active,
 .demo:hover {
     opacity: 1;
@@ -285,18 +263,6 @@ body{
     background: blueviolet;
     color: cornsilk;
     font-size: large;
-}
-
-#NumberGame{
-    text-align: center;
-    display: block;
-    align-self: center;
-    font-family: 'Rubik', sans-serif;
-    color: cornsilk;
-}
-
-#NumberGame img{
-    align-items: center;
 }
 
 #Symptoms{
@@ -334,7 +300,7 @@ body{
     width: 100%;
     display: inline-block;
 }
-  
+
 .overlayC {
     position: absolute;
     bottom: 0;
@@ -370,7 +336,7 @@ body{
     height: 0;
     transition: .5s ease;
 }
-  
+
 .h:hover .overlayC{
     height: 100%;
     width: 100%;
@@ -387,7 +353,7 @@ body{
 }
 
 .textC {
-    white-space: nowrap; 
+    white-space: nowrap;
     color: white;
     font-size: large;
     position: absolute;
@@ -399,7 +365,7 @@ body{
 }
 
 .textF {
-    white-space: nowrap; 
+    white-space: nowrap;
     color: white;
     font-size: large;
     position: absolute;
@@ -411,7 +377,7 @@ body{
 }
 
 .textB {
-    white-space: nowrap; 
+    white-space: nowrap;
     color: white;
     font-size: large;
     position: absolute;
@@ -439,7 +405,7 @@ body{
     width: 100%;*/
     display: inline-block;
 }
-#Treatment .w3-animate-left{position:relative;animation:animateleft 2s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}} 
+#Treatment .w3-animate-left{position:relative;animation:animateleft 2s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
 
 #Precaution{
     display: block;
@@ -452,7 +418,7 @@ body{
     color: cornsilk;
     font-size: large;
 }
-#Precaution .w3-animate-left{position:relative;animation:animateleft 2s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}} 
+#Precaution .w3-animate-left{position:relative;animation:animateleft 2s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
 
 #MythsFacts{
     display: block;
@@ -522,12 +488,12 @@ body{
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
@@ -552,7 +518,7 @@ body{
     display: flex;
     flex-direction: row;
 }
-  
+
 #Recovery .flex-container > div .storyUS {
     background-color: #f1f1f1;
     width: 100px;
@@ -586,7 +552,7 @@ body{
 #Recovery .storyUS{
     display: inline-block;
     text-overflow: unset;
-    width: 33.3%; 
+    width: 33.3%;
     text-align: justify;
     border: 5px solid #c416e7;
     border-radius: 10px;
@@ -601,7 +567,7 @@ body{
     align-self: middle;
     text-overflow: unset;
     display: inline-block;
-    width: 33.3%; 
+    width: 33.3%;
     text-align: justify;
     border: 5px solid #c416e7;
     border-radius: 10px;
@@ -616,7 +582,7 @@ body{
     align-self: middle;
     text-overflow: unset;
     display: inline-block;
-    width: 33.3%; 
+    width: 33.3%;
     text-align: justify;
     border: 5px solid #c416e7;
     border-radius: 10px;

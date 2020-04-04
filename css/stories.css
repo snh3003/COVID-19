@@ -1,0 +1,22 @@
+
+/* .container-fluid {
+  max-width: 1200px;
+} */
+
+.card {
+  background: #fff;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  border-bottom: solid black;
+  border-radius: 25px;
+}
+.card img {
+  width: 100%;
+}
+
+
+.btn:hover{
+  background-color: green;
+}
+.card:hover{
+  background-color: red;
+}
