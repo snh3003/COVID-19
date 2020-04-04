@@ -1,9 +1,9 @@
-body {
+/* body {
   font-family: verdana;
   padding: 25px;
   color: #7cbc20;
   text-align: center;
-}
+} */
 
 /*-=-=-=-=-=-=-=-=-=-=-=- */
 /* Column Grids */
@@ -55,7 +55,7 @@ body {
 .counter {
   background-color: #00fffff;
   padding: 100px 0;
-  border-radius: 0px;
+  border-radius: 5px;
 }
 .count-title {
   font-size: 66px;
