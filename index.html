@@ -8,20 +8,19 @@
     <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
     <link rel = "icon" href = "./images/logo.png" type = "image/x-icon">
     <title>CoroIndex: All about Coronavirus and COVID-19</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css'>
+    <link rel="stylesheet" href="css/slider.css">
 </head>
 <body>
     <div class="container">
         <div id="home">
-
             <br>
         </div> <!--this one for id = home-->
-
-        <!--Dropdown in the menu left to be added-->
 
         <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 
         <div class="topnav" id="myTopnav">
-            <a href="#home" id="btn active">Ghar</a>
+            <a href="#home" id="btn active">Home</a>
             <a href="#About" id="btn active">About</a>
             <a href="#History" id="btn active">History</a>
             <a href="#NumberGame" id="btn active">Numbers Matter</a>
@@ -39,60 +38,56 @@
         </div>
 
         <!--Slideshow of Images-->
+
+        <div class="slider">
+        	<div class="slider-container">
+        		<div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1527838832700-5059252407fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=943&q=80');">
+        			<div class="info">
+        				<h1>Sultanahmet</h1>
+        				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum.</p>
+        			</div>
+        		</div>
+        		<div class="slide" style="background-image: url('https://images.unsplash.com/photo-1527255754861-3ac1a8a04916?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80');">
+        			<div class="info">
+        				<h1>Grand bazaar</h1>
+        				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, vero earum perspiciatis officia</p>
+        			</div>
+        		</div>
+        		<div class="slide" style="background-image: url('https://images.unsplash.com/photo-1550946715-c2d98d2f5c74?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80');">
+        			<div class="info">
+        				<h1>Turkish delight & confectionary</h1>
+        				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt recusandae unde autem</p>
+        			</div>
+        		</div>
+        		<div class="slide" style="background-image: url('https://images.unsplash.com/photo-1531168010535-64a9823f7eb4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80');">
+        			<div class="info">
+        				<h1>Galacta Tower</h1>
+        				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        			</div>
+        		</div>
+        		<div class="slide" style="background-image: url('https://images.unsplash.com/photo-1544906125-da2be8706efc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80');">
+        			<div class="info">
+        				<h1>Architecture</h1>
+        				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum.</p>
+        			</div>
+        		</div>
+        		<div class="slide" style="background-image: url('https://images.unsplash.com/photo-1523401153564-541006e5285a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1652&q=80');">
+        			<div class="info">
+        				<h1>Blue Mosque</h1>
+        				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt recusandae.</p>
+        			</div>
+        		</div>
+        	</div>
+        	<div class="eraser"></div>
+        	<div class="buttons-container">
+        		<button id="previous"><i class="fas fa-chevron-left"></i></i></button>
+        		<button id="next"><i class="fas fa-chevron-right"></i></button>
+        	</div>
+        </div>
+
+        <!--Slideshow of Images end-->
         <!-- Full-width images with number text -->
-        <div class="mySlides">
-        <div class="numbertext"></div>
-            <img src="./images/SlidePic1.jpg" style="width:100%; height:100%;">
-        </div>
 
-        <div class="mySlides">
-        <div class="numbertext"></div>
-            <img src="./images/pandemic.jpg" style="width:100%; height:100%;">
-        </div>
-
-        <div class="mySlides">
-        <div class="numbertext"></div>
-            <img src="./images/tourism.jpg" style="width:100%; height:100%;">
-        </div>
-
-        <div class="mySlides">
-        <div class="numbertext"></div>
-            <img src="./images/StockMarketCrash.jpeg" style="width:100%; height:100%;">
-        </div>
-
-        <div class="mySlides">
-        <div class="numbertext"></div>
-            <img src="./images/BB118Ymo.jfif" style="width:100%; height:100%;">
-        </div>
-
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-        <!-- Image text -->
-        <div class="caption-container">
-            <p id="caption"></p>
-        </div>
-
-        <!-- Thumbnail images -->
-        <div class="row">
-            <div class="column">
-                <img class="demo cursor" src="./images/SlidePic1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Microscopic view of Novel Coronavirus">
-            </div>
-            <div class="column">
-                <img class="demo cursor" src="./images/pandemic.jpg" style="width:100%" onclick="currentSlide(2)" alt="COVID-19 being declared a global pandemic by WHO Director General, Dr Tedros Adhanom Ghebreyesus, on 11 March 2020">
-            </div>
-            <div class="column">
-                <img class="demo cursor" src="./images/tourism.jpg" style="width:100%" onclick="currentSlide(3)" alt="Tourism sector gets badly affected">
-            </div>
-            <div class="column">
-                <img class="demo cursor" src="./images/StockMarketCrash.jpeg" style="width:100%" onclick="currentSlide(4)" alt="Stock markets all over the world crash down">
-            </div>
-            <div class="column">
-                <img class="demo cursor" src="./images/BB118Ymo.jfif" style="width:100%" onclick="currentSlide(5)" alt="Future of Olympics at stake due to the situation, with players and olympic associations of different countries opposing its conduct">
-            </div>
-        </div>
-        <br><br>
     </div> <!--this one for class = container-->
 
     <!--ABOUT-->
@@ -121,7 +116,7 @@
     </div>
     <br><br>
 
-   
+
 
     <!--SYMPTOMS-->
     <div id="Symptoms">
@@ -369,5 +364,6 @@
         <p>The w3-animate-left class slides in an element from left.</p>
     </div> -->
     <script src="script.js"></script>
+    <script src="js/slider.js"></script>
 </body>
 </html>
