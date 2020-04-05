@@ -165,40 +165,39 @@ body{
 
 #About{
     text-align: justify;
-    border: 5px solid #c416e7;
+    border: 5px solid #696969;
     border-radius: 10px;
     font-size: medium;
     /*background-attachment: fixed;*/
     font-family: 'Rubik', sans-serif;
     margin: 0 auto;
-    background:#68A1E0;
-    color: cornsilk;
+    background:#fff;
+    color: #000;
     padding: 5px;
     font-size: large;
 }
 
 #History{
     display: block;
-    background-image: url('\images\marketWuhan.jpg');
     text-align: justify;
-    border: 5px solid #c416e7;
+    border: 5px solid #696969;
     border-radius: 10px;
     font-family: 'Rubik', sans-serif;
     padding: 5px;
-    background: blueviolet;
-    color: cornsilk;
+    background: #fff;
+    color: #000;
     font-size: large;
 }
 
 #Symptoms{
     display: block;
     text-align: justify;
-    border: 5px solid #c416e7;
+    border: 5px solid #696969;
     border-radius: 10px;
     font-family: 'Rubik', sans-serif;
     padding: 5px;
-    background: blueviolet;
-    color: cornsilk;
+    background: #fff;
+    color: #000;
     font-size: large;
 }
 
@@ -316,12 +315,12 @@ body{
 #Treatment{
     display: block;
     text-align: justify;
-    border: 5px solid #c416e7;
+    border: 5px solid #696969;
     border-radius: 10px;
     font-family: 'Rubik', sans-serif;
     padding: 5px;
-    background: #68A1E0;
-    color: cornsilk;
+    background: #fff;
+    color: #000;
     font-size: large;
 }
 
@@ -335,12 +334,12 @@ body{
 #Precaution{
     display: block;
     text-align: justify;
-    border: 5px solid #c416e7;
+    border: 5px solid #696969;
     border-radius: 10px;
     font-family: 'Rubik', sans-serif;
     padding: 5px;
-    background: blueviolet;
-    color: cornsilk;
+    background: #fff;
+    color: #000;
     font-size: large;
 }
 #Precaution .w3-animate-left{position:relative;animation:animateleft 2s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
@@ -348,12 +347,12 @@ body{
 #MythsFacts{
     display: block;
     text-align: justify;
-    border: 5px solid #c416e7;
+    border: 5px solid #696969;
     border-radius: 10px;
     font-family: 'Rubik', sans-serif;
     padding: 5px;
-    background: #68A1E0;
-    color: cornsilk;
+    background: #fff;
+    color: #000;
     font-size: large;
 }
 
@@ -430,12 +429,12 @@ body{
 #Recovery{
     display: block;
     text-align: justify;
-    border: 5px solid #c416e7;
+    border: 5px solid #696969;
     border-radius: 10px;
     font-family: 'Rubik', sans-serif;
     padding: 5px;
-    background: blueviolet;
-    color: cornsilk;
+    background: #fff;
+    color: #000;
     font-size: large;
 }
 
@@ -521,12 +520,12 @@ body{
 #Way{
     display: block;
     text-align: justify;
-    border: 5px solid #c416e7;
+    border: 5px solid #696969;
     border-radius: 10px;
     font-family: 'Rubik', sans-serif;
     padding: 5px;
-    background: #68A1E0;
-    color: cornsilk;
+    background: #fff;
+    color: #000;
     font-size: large;
 }
 
@@ -574,12 +573,12 @@ body{
 #Testimonial{
     display: block;
     text-align: justify;
-    border: 5px solid #c416e7;
+    border: 5px solid #696969;
     border-radius: 10px;
     font-family: 'Rubik', sans-serif;
+    color: #000;
     padding: 5px;
-    background: blueviolet;
-    color: cornsilk;
+    background: #fff;
     font-size: large;
 }
 

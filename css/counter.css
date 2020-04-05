@@ -17,6 +17,7 @@
 }
 .col_fourth {
   width: 30%;
+  float:left;
 }
 
 .col_half,
@@ -26,7 +27,13 @@
   display: inline;
   float: left;
   margin-right: 3%;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+
+}
+@media only screen and (max-width: 300px) {
+    #NumberGame .col_forth {
+      float: none;
+    }
 }
 .end {
   margin-right: 0 !important;
@@ -42,6 +49,7 @@
   background-color: #00fffff;
   padding: 100px 0;
   border-radius: 5px;
+  border-bottom: 2px solid red;
 }
 .count-title {
   font-size: 66px;
